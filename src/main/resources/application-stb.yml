@@ -1,0 +1,30 @@
+server:
+  host: http://192.168.3.202:8090
+  context: /csapp
+codis:
+  host: 192.168.3.111
+  port: 29000
+  password: redis
+  db: 0
+redis:
+  host:
+    -
+     - 192.168.3.130
+     - 26379
+    -
+     - 192.168.3.129
+     - 26379
+    -
+     - 192.168.3.108
+     - 26379
+mysql:
+  host: 192.168.3.155
+  port: 3308
+  user: stb_nono_app
+  password: csstbnonobank@2016
+  db: nonobank_app
+mongo:
+  host: 192.168.3.29
+  user: csyy_app
+  password: csyyapp@stb
+  db: csyy_app_log
