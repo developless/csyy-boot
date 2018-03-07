@@ -62,7 +62,7 @@ class api(object):
             "blackBox": str(uuid.uuid1()).replace('-', ''),
             "checkCode": "888888",
             "mobileNumber": mobile,
-            "password": "a123456",
+            "password": "dc483e80a7a0bd9ef71d8cf973673924",
             "registerApproach": "04",
             "resource": "CSYY"
         }
